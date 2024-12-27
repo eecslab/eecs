@@ -51,6 +51,12 @@ In `docs` directory to create `index.md` and `tools.md` markdown files
 
 Deploy mkdocs project to github
 
-```bash
+Fisrt, Upload the whole to github repository, such as `git@github.com:test/xxxx.git`
+And then， execute following command
 
+```bash
+mkdocs gh-deploy
 ```
+
+
+Now, you can access the website: `https://test.github.io/xxx`
