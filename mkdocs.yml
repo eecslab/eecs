@@ -3,5 +3,7 @@ nav:
   - Home: index.md
   - Tools:
     - Mkdocs Usage: tools/mkdocs.md
+  - Notes:
+    - RF Basics: notes/rf_basics.md
 theme:
   name: material
