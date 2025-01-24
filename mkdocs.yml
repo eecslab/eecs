@@ -5,5 +5,8 @@ nav:
     - Mkdocs Usage: tools/mkdocs.md
   - Notes:
     - RF Basics: notes/rf_basics.md
+  - Linux:
+    - Kdump:
+      - Kdump Usage: linux/kdump/kdump_usage.md
 theme:
   name: material
