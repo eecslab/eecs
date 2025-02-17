@@ -5,6 +5,9 @@ nav:
     - Mkdocs Usage: tools/mkdocs.md
   - Notes:
     - RF Basics: notes/rf_basics.md
+    - Rust Basics: notes/rust_basics.md
+    - CPU Basics: notes/cpu_basics.md
+    - AI Basics: notes/ai_basics.md
   - Linux:
     - Kdump:
       - Kdump Usage: linux/kdump/kdump_usage.md
