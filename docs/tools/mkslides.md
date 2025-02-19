@@ -43,3 +43,4 @@ mkslides build test.md
 ## 参考
 
 - [MkSlides](https://github.com/MartenBE/mkslides)
+- [hogent-markdown-slides](https://github.com/HoGentTIN/hogent-markdown-slides)
