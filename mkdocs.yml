@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - Tools:
     - Mkdocs Usage: tools/mkdocs.md
+    - MkSlides Usage: tools/mkslides.md
   - Notes:
     - RF Basics: notes/rf_basics.md
     - Rust Basics: notes/rust_basics.md
