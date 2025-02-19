@@ -65,3 +65,9 @@ mkdocs gh-deploy
 ```
 
 Now, you can access the website: `https://test.github.io/xxx`
+
+
+
+## Plugins
+
+- [mkdocs-markmap](https://github.com/markmap/mkdocs_markmap)

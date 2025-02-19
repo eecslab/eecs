@@ -9,8 +9,13 @@ nav:
     - Rust Basics: notes/rust_basics.md
     - CPU Basics: notes/cpu_basics.md
     - AI Basics: notes/ai_basics.md
+    - Wireless Comm: notes/wireless_comm.md
   - Linux:
     - Kdump:
       - Kdump Usage: linux/kdump/kdump_usage.md
+  - Wlan:
+    - IEEE 802.11b:
+      - Contents: wlan/ieee80211b/contents.md
+
 theme:
   name: material
