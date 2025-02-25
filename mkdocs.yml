@@ -13,6 +13,10 @@ nav:
   - Linux:
     - Kdump:
       - Kdump Usage: linux/kdump/kdump_usage.md
+    - Netlink:
+      - Netlink Demo: linux/netlink/netlink_demo.md
+    - TCP&IP Prot:
+      - TCP Demo: linux/tcp_ip/tcp_comm_demo.md
   - Wlan:
     - IEEE 802.11b:
       - Contents: wlan/ieee80211b/contents.md

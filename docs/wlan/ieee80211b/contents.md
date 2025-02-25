@@ -47,6 +47,12 @@
 
 ## 7. Frame formats
 
+### 7.1 MAC frame formats
+
+### 7.2 Format of individual frame types
+
+### 7.3 Management frame body components
+
 ## 8. Authentication and privacy
 
 ## 9. MAC sublayer functional description
