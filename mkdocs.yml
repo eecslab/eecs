@@ -23,3 +23,8 @@ nav:
 
 theme:
   name: material
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
