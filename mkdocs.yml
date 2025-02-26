@@ -27,4 +27,16 @@ theme:
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+# 引入 Mermaid 的 JavaScript 库
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
+
+# 可选：自定义 Mermaid 主题或配置
+extra_css:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.css
