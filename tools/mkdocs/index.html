@@ -963,47 +963,64 @@
   <h1>Mkdocs Usage</h1>
 
 <h2 id="install-mkdocs">Install mkdocs</h2>
-<pre><code class="language-bash">pip install mkdocs
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>mkdocs
 
-pip install mkdocs-material
-</code></pre>
+pip<span class="w"> </span>install<span class="w"> </span>mkdocs-material
+</code></pre></div></td></tr></table></div>
 <h2 id="create-mkdocs-project">Create mkdocs project</h2>
-<pre><code class="language-bash">mkdocs new .
-</code></pre>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>mkdocs<span class="w"> </span>new<span class="w"> </span>.
+</code></pre></div></td></tr></table></div>
 <p>the structure of the new mkdocs project directory as follows</p>
-<pre><code>.
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code>.
 ├─ docs/
 │  └─ index.md
 └─ mkdocs.yml
-</code></pre>
+</code></pre></div></td></tr></table></div>
 <h2 id="configure-mkdocs-theme">Configure mkdocs theme</h2>
 <p>configure the mkdocs theme (theme: material)</p>
-<pre><code class="language-bash">site_name: My site
-site_url: https://mydomain.org/mysite
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code>site_name:<span class="w"> </span>My<span class="w"> </span>site
+site_url:<span class="w"> </span>https://mydomain.org/mysite
 theme:
-  name: material
-</code></pre>
+<span class="w">  </span>name:<span class="w"> </span>material
+</code></pre></div></td></tr></table></div>
 <h2 id="add-mkdocs-navigation">Add mkdocs navigation</h2>
-<pre><code>site_name: My Docs
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code>site_name: My Docs
 nav:
   - Home: index.md
   - Tools: tools.md
 theme:
   name: material
-</code></pre>
+</code></pre></div></td></tr></table></div>
 <p>In <code>docs</code> directory to create <code>index.md</code> and <code>tools.md</code> markdown files</p>
-<pre><code>.
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code>.
 ├── docs
 │   ├── index.md
 │   └── tools.md
 ├── mkdocs.yml
-</code></pre>
+</code></pre></div></td></tr></table></div>
 <h2 id="deploy-mkdocs-project">Deploy mkdocs project</h2>
 <p>The follow introduces how to deploy the mkdocs project to github page</p>
 <p>Fisrt, Upload the whole mkdocs project to github repository, such as <code>git@github.com:test/xxxx.git</code>
 And then， execute following command</p>
-<pre><code class="language-bash">mkdocs gh-deploy
-</code></pre>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>mkdocs<span class="w"> </span>gh-deploy
+</code></pre></div></td></tr></table></div>
 <p>Now, you can access the website: <code>https://test.github.io/xxx</code></p>
 <h2 id="plugins">Plugins</h2>
 <ul>

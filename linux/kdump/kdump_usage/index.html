@@ -893,18 +893,18 @@
   <h1>Kdump Usage</h1>
 
 <h2 id="1-kdump">1. 安装 <code>kdump</code> 工具</h2>
-<pre><code class="language-bash">sudo apt install -y linux-crashdump kexec-tools
-</code></pre>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>linux-crashdump<span class="w"> </span>kexec-tools
+</code></pre></div></td></tr></table></div>
 <h2 id="2-kdump">2. 激活 <code>kdump</code></h2>
-<pre><code class="language-bash">kdump-config load
-</code></pre>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>kdump-config<span class="w"> </span>load
+</code></pre></div></td></tr></table></div>
 <p>查看 <code>kdump</code> 状态</p>
-<pre><code class="language-bash">kdump-config show
-</code></pre>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>kdump-config<span class="w"> </span>show
+</code></pre></div></td></tr></table></div>
 <p>这样， 当 Linux Kernel crash 的时候， 会产生如下的日志，并保存到 <code>/var/crash</code> 目录下</p>
 <p>可以通过如下命令触发一次挂死来查看产生的 kdump 文件</p>
-<pre><code class="language-bash">echo c &gt; /proc/sysrq-trigger
-</code></pre>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nb">echo</span><span class="w"> </span>c<span class="w"> </span>&gt;<span class="w"> </span>/proc/sysrq-trigger
+</code></pre></div></td></tr></table></div>
 
 
 
