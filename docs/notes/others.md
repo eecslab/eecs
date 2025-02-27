@@ -1,3 +1,7 @@
+- [Network lab with QEMU](https://vincent.bernat.ch/en/blog/2012-network-lab-kvm#booting-qemu-with-a-minimal-kernel)
+- [Monitoring and Tuning the Linux Networking Stack: Sending Data](https://blog.packagecloud.io/monitoring-tuning-linux-networking-stack-sending-data/)
+- [Monitoring and Tuning the Linux Networking Stack: Receiving Data](https://blog.packagecloud.io/monitoring-tuning-linux-networking-stack-receiving-data/)
+
 - [https://chenweixiang.github.io/](https://chenweixiang.github.io/)
 - [Digital Pre-Distortion (DPD) Concept](https://helpfiles.keysight.com/csg/n7614/Content/Main/Digital%20Pre-Distortion%20(DPD)%20Concept.htm)
 - [Linux 驱动教程 - 写一个最简单的 （伪）Linux Wi-Fi 无线驱动原型](https://zhuanlan.zhihu.com/p/650488004)
@@ -33,6 +37,8 @@
 
 - [DSPIllustrations.com](https://dspillustrations.com/pages/index.html)
 
+- [m基于LS+变步长LMS的Volterra级数数字预失真DPD系统matlab仿真](https://www.cnblogs.com/51matlab/p/17139073.html)
+- [Improved Variable Step-size LMS for Digital Predistortion in Wideband Power Amplifiers](https://ieeexplore.ieee.org/document/8473505)
 - [Digital predistortion of power amplifiers using look-up table method with memory effects for LTE wireless systems | EURASIP Journal on Wireless Communications and Networking | Full Text (springeropen.com)](https://jwcn-eurasipjournals.springeropen.com/articles/10.1186/1687-1499-2012-330)
 
 - [Digital Pre-Distorter System Based on Memoryless Hammerstein Model for High Power Amplifier Impairments | Arabian Journal for Science and Engineering (springer.com)](https://link.springer.com/article/10.1007/s13369-023-08270-1)
