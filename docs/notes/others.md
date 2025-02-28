@@ -1,6 +1,15 @@
 - [Network lab with QEMU](https://vincent.bernat.ch/en/blog/2012-network-lab-kvm#booting-qemu-with-a-minimal-kernel)
 - [Monitoring and Tuning the Linux Networking Stack: Sending Data](https://blog.packagecloud.io/monitoring-tuning-linux-networking-stack-sending-data/)
 - [Monitoring and Tuning the Linux Networking Stack: Receiving Data](https://blog.packagecloud.io/monitoring-tuning-linux-networking-stack-receiving-data/)
+- [Linux内核常见网络丢包场景](https://zhuanlan.zhihu.com/p/715073909)
+- [IEEE 802.11be Multi-link Operation in ns-3](https://sharan-naribole.github.io/files/wns3_2020_mlo_lightning_talk.pdf)
+
+- [从0开始使用QEMU模拟ARM开发环境系列一览表](https://blog.csdn.net/leacock1991/article/details/113735396)
+- [浅析linux内核调试技术之printk](https://zhuanlan.zhihu.com/p/562945707)
+
+- [软件测试的相关术语](https://blog.csdn.net/BryantKeBo/article/details/122923946)
+- [软件管理需求](https://zhuanlan.zhihu.com/p/437968004)
+- [什么是IPD（集成产品开发）](https://cloud.tencent.com/developer/article/2307858)
 
 - [https://chenweixiang.github.io/](https://chenweixiang.github.io/)
 - [Digital Pre-Distortion (DPD) Concept](https://helpfiles.keysight.com/csg/n7614/Content/Main/Digital%20Pre-Distortion%20(DPD)%20Concept.htm)
